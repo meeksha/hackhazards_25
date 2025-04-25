@@ -1,0 +1,5 @@
+streamlit==1.29.0
+groq==0.3.0
+python-dotenv==1.0.0
+wolframalpha==5.0.0
+latex2sympy2==1.8.0
