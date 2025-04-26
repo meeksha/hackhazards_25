@@ -1,5 +1,7 @@
-Flask
-flask_cors
-python-dotenv
-groq
+flask
+groq==0.3.0
+python-dotenv==1.0.0
+wolframalpha==5.0.0
+latex2sympy2==1.8.0
 gunicorn
+flask-cors
