@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: your-app-name
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"  # Ensure you are using the correct version of Python (adjust as needed)
+    plan: free  # You can change this to any Render plan you're using
