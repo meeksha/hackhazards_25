@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import os
-from groq import Groq
+from groq.client import Groq
+
 from dotenv import load_dotenv
 
 # Load API keys from .env file
